@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 
 st.title("RBC Cell Detection")
-st.write("Upload a high-resolution RBC smear image (up to ~50 cells per field).")
+st.write("1.Upload a high-resolution RBC smear. And image having less than 50 cells.")
 
 uploaded_file = st.file_uploader("Upload Image", type=["jpg", "jpeg", "png"])
 
